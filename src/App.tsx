@@ -1,4 +1,5 @@
 import { Counter } from "./features/counter/Counter";
+import WeatherContainer from "./features/weather/Wearger";
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
   return (
     <main className="container">
       <Counter />
+      <WeatherContainer />
     </main>
   );
 }

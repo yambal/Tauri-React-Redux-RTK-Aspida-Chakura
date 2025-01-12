@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux'
 
 import { setupListeners } from '@reduxjs/toolkit/query'
 import { createRootReducer } from './reducer'
+import { weatherQueries } from './queries/weatherQuery'
 
 export type RootState = ReturnType<typeof rootReducer>
 
@@ -12,7 +13,7 @@ export const store = configureStore({
   reducer: rootReducer,
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware()
-    //  .concat(weatherQueries.middleware)
+      .concat(weatherQueries.middleware)
     //  .concat(newsQueries.middleware),
 })
 

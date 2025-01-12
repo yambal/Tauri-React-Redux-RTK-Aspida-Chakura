@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import { counterSelector } from '../../store/selectore/counterSelector'
+import { counterSelector } from '../../store/selector/counterSelector'
 import { counterSlice } from './CounterSlice'
 import { useAppDispatch } from '../../store/store'
 import { Button } from '../../components/ui/button'
