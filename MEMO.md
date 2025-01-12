@@ -1,0 +1,5 @@
+- Chakura ()
+  - pnpm install @chakra-ui/react @emotion/react
+  - npx @chakra-ui/cli snippet add
+  - Setup provider
+  - Update tsconfig
