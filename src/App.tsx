@@ -1,11 +1,11 @@
-import { Button } from "./components/ui/button";
+import { Counter } from "./features/counter/Counter";
 
 function App() {
 
 
   return (
     <main className="container">
-      <Button>Button</Button>
+      <Counter />
     </main>
   );
 }
