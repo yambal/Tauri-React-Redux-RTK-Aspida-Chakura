@@ -1,11 +1,13 @@
-import { Button } from "./components/ui/button";
+import { Counter } from "./features/counter/Counter";
+import WeatherContainer from "./features/weather/Wearger";
 
 function App() {
 
 
   return (
     <main className="container">
-      <Button>Button</Button>
+      <Counter />
+      <WeatherContainer />
     </main>
   );
 }

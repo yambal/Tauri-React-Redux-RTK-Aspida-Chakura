@@ -1,5 +1,18 @@
+- scripts
+  - `pnpm api:build`
+  - `pnpm dev`
+  - `pnpm build`
+  - `pnpm tauri build`
 - Chakura ()
-  - pnpm install @chakra-ui/react @emotion/react
-  - npx @chakra-ui/cli snippet add
+  - `pnpm install @chakra-ui/react @emotion/react`
+  - `npx @chakra-ui/cli snippet add`
   - Setup provider
   - Update tsconfig
+- Redux & RTK Query
+- aspida & axios
+  - `pnpm install axios aspida @aspida/axios`
+  - api ディレクトリを作成する
+  - scrips に追記 `"api:build": "aspida"`
+  - aspida.config.js 編集
+  - 型定義ファイルをビルドする
+    - `pnpm api:build`
