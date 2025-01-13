@@ -34,4 +34,4 @@ export const weatherQueries = createApi({
   }),
 })
 
-export const { useGetWeatherQuery } = weatherQueries
+export const { useGetWeatherQuery, useLazyGetWeatherQuery, usePrefetch } = weatherQueries
