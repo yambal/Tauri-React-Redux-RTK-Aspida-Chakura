@@ -15,6 +15,7 @@ export const Counter = () => {
 
   return (
     <div>
+      <p>This sample uses Redux and RTK to manage state.</p>
       <div>{count}</div>
       <Button onClick={addHandler}>add</Button>
     </div>

@@ -11,7 +11,7 @@ export const Notification = () => {
 
   return (
     <div>
-      {isPermissionGranted && <Button onClick={notificationHandle}>Notification</Button>}
+      {isPermissionGranted ? <Button onClick={notificationHandle}>Notification</Button> : "mm.."}
     </div>
   )
 }
