@@ -5,6 +5,7 @@ import { SampleLayout } from "./layouts/SampleLayout"
 import { Layout } from "./layouts/Layout"
 import { WeatherPage } from "./pages/samples/WeatherPage"
 import { IndexPage } from "./pages/IndexPage"
+import { OsPage } from "./pages/samples/OsPage"
 
 function AppRouter() {
   return (
@@ -16,6 +17,7 @@ function AppRouter() {
             <Route index element={<SamplePage />} />
             <Route path="counter" element={<CounterPage />} />
             <Route path="weather" element={<WeatherPage />} />
+            <Route path="os" element={<OsPage />} />
           </Route>
         </Route>
       </Route>

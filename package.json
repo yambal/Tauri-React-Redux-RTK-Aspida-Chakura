@@ -17,6 +17,7 @@
     "@reduxjs/toolkit": "^2.5.0",
     "@tauri-apps/api": "^2",
     "@tauri-apps/plugin-opener": "^2",
+    "@tauri-apps/plugin-os": "^2.2.0",
     "aspida": "^1.14.0",
     "axios": "^1.7.9",
     "next-themes": "^0.4.4",
