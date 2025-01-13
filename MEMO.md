@@ -16,3 +16,12 @@
   - aspida.config.js 編集
   - 型定義ファイルをビルドする
     - `pnpm api:build`
+- Tauri Plagin
+  - see [plugins-workspace](https://github.com/tauri-apps/plugins-workspace?tab=readme-ov-file)
+  - PLUGIN-OS
+    - see [PLAGIN-OS](https://github.com/tauri-apps/plugins-workspace/tree/v2/plugins/os)
+    - add to `src-tauri\Cargo.toml`
+      - `tauri-plugin-os = "2.0.0"`
+    - `pnpm add @tauri-apps/plugin-os`
+    - add to `src-tauri/src/lib.rs`
+      - `.plugin(tauri_plugin_os::init())`

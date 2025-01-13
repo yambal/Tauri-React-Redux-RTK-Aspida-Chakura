@@ -12,6 +12,7 @@ export const SampleLayout = () => {
           <Link to="counter">Counter</Link>
           <Link to="weather">Weather</Link>
           <Link to="notification">Notification</Link>
+          <Link to="os">Os</Link>
         </Stack>
       </Container>
       <hr />

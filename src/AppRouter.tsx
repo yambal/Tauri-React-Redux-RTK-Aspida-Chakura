@@ -6,6 +6,7 @@ import { Layout } from "./layouts/Layout"
 import { WeatherPage } from "./pages/samples/WeatherPage"
 import { IndexPage } from "./pages/IndexPage"
 import { NotificationPage } from "./pages/samples/NotificationPage"
+import { OsPage } from "./pages/samples/OsPage"
 
 function AppRouter() {
   return (
@@ -18,6 +19,7 @@ function AppRouter() {
             <Route path="counter" element={<CounterPage />} />
             <Route path="weather" element={<WeatherPage />} />
             <Route path="notification" element={<NotificationPage />} />
+            <Route path="os" element={<OsPage />} />
           </Route>
         </Route>
       </Route>
